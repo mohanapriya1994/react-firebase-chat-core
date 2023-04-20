@@ -1,20 +1,17 @@
-<h1>React Web Boilerplate</h1>
-<p>React based web application</p>
-<br />
+# spyn-trak-replays
 
-## Available Scripts
+## Usage
 
-In the project directory, you can run:
+```tsx
+<TrakReplayPlayer 
+    buildProgress={(progress) => <ProgressSpin progress={progress}/>}
+    getVideoPlaylist={config => getVideoPlaylist(config)}
+    musicId={MUSIC_VIDEO_ID}
+    replay={props.replay}
+    videoId={TRAINER_CAMERA_VIDEO_ID}>
+    
+    <ReplayPlayerUi/>
+    
+</TrakReplayPlayer>
+```
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.

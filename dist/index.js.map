@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/useFirebaseUser.ts"],"sourcesContent":[null],"names":["firebaseUser","setFirebaseUser","React","useState","undefined","useEffect","firebase","auth","onAuthStateChanged","user"],"mappings":"4VAI+B,KAC7B,MAAOA,EAAcC,GAAmBC,EAAMC,cAC5CC,GASF,OANAF,EAAMG,WAAU,IACPC,EAASC,OAAOC,oBAAoBC,IACzCR,EAAgBQ,QAAQL,EAAU,MAI/B,CAAEJ,eAAc"}

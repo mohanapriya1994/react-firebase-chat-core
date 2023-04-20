@@ -1,0 +1,2 @@
+"use strict";var e=require("firebase");function r(e){var r=Object.create(null);return e&&Object.keys(e).forEach((function(t){if("default"!==t){var u=Object.getOwnPropertyDescriptor(e,t);Object.defineProperty(r,t,u.get?u:{enumerable:!0,get:function(){return e[t]}})}})),r.default=e,Object.freeze(r)}var t=r(require("react"));exports.useFirebaseUser=()=>{const[r,u]=t.useState(void 0);return t.useEffect((()=>e.auth().onAuthStateChanged((e=>{u(e??void 0)})))),{firebaseUser:r}};
+//# sourceMappingURL=index.js.map
